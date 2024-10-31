@@ -1,0 +1,34 @@
+/* Estilo para el historial de recargas */
+.historial-recargas {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-recargas {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tabla-recargas th, .tabla-recargas td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.tabla-recargas th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.tabla-recargas tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tabla-recargas tr:hover {
+  background-color: #f1f1f1;
+}
